@@ -1,6 +1,6 @@
 ---
 title: "Dictionary Methods"
-subtitle: Text as Data
+subtitle: Introduction to Text as Data
 author: "Amber Boydstun & Cory Struthers"
 date: "Fall 2025"
 output:
