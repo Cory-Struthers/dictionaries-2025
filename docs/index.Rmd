@@ -351,7 +351,7 @@ Note that we do not need to use `tokens_compound` because the dictionary does no
 # Transform to tokens
 eu_toks <- tokens(korpus.euspeech, remove_punct=TRUE) %>%
                 tokens_remove(pattern = stopwords("en")) %>%
-                tokens_group(groups = country) # grouping by country/entity
+                tokens_group(groups = country) # grouping by year
 eu_dfm = dfm(eu_toks)
 
 # Apply dictionary
